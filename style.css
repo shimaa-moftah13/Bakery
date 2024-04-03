@@ -1,0 +1,323 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.content{
+    text-align: center;
+    color: white;
+margin-top: 120px;
+}
+.content p {
+font-size: 23px;
+
+}
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.content .but{
+    padding: 22px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 25px 7px;
+}
+.content .b1{
+    background-color: #8E7754;
+    border-width: 0;
+}
+.content .b2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-logo{
+    width: 15%;
+    float: left;
+   margin-top: 15px;
+}
+.nav-logo img{
+    width: 100%;
+}
+.nav-links ul{
+    float: right;
+    margin-top: 20px;
+}
+.nav-links ul li{
+    list-style-type: none;
+     float: left;
+    padding: 15px;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+
+/***************home***************/
+/***************About*************/
+
+.about{
+width: 90%;
+margin: auto;
+margin-top: 70px;
+}
+.about-img{
+    width: 40%;
+    float: left;
+}
+.about-img img{
+    width: 100%;
+}
+.about-cap{
+    width: 40%; 
+    float: right; 
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+.about-cap p{
+    margin: 40px 0;
+ 
+}
+.about-list{
+    display: flex;
+}
+.about-list ul li {
+    padding: 17px;
+    list-style: none;
+    display: block;
+    
+  
+}
+.about-list img{
+    width: 8%;
+    vertical-align: middle;
+   
+}
+
+
+/********************About********************/
+/*******************location*****************/
+
+.location{
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #F8F8F8;
+}
+.location-img{
+        width: 40%;
+        float: right;
+        margin-right: 80px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+ }
+ .location-img img{
+        width: 100%;
+    }
+.cap{
+        width: 40%; 
+        float: left; 
+        font-size: 18px;
+        margin-left: 80px;
+        margin-top: 100px;
+        margin-bottom: 80px;
+}
+.cap2{
+        margin-top: 40px;
+        width: 33%;
+ }
+ .cap h2{
+        margin-bottom: 20px;
+}
+
+/*********************location*********************/
+/**********************baking**********************/
+
+    .baking{
+        width: 80%;
+        margin: auto;
+        margin-top: 150px;
+       
+    }
+    .baking-cap{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 23px;
+    }
+    .baking-cap h2{
+        margin-bottom: 30px;
+    }
+    .breads{
+        float: left;
+        text-align: center;
+        width: 33%;
+        margin-bottom: 50px;
+        
+    }
+    .bread img{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    .bread h2{
+        margin-bottom: 20px;
+    }
+   
+    .bread{
+        padding: 30px;
+       
+    }
+    .clr{
+        clear: both;
+    }
+
+/*****************baking*************************/
+/*****************Contact**********************/
+
+
+    .Contact-cap{
+        width: 40%; 
+        float: left; 
+        font-size: 20px;
+        margin-left: 80px;
+        margin-top: 90px;
+        margin-bottom: 80px;
+        
+    }
+    .Contact-cap p{
+        margin: 40px 0;
+     
+    }
+    .Contact-list ul li{
+        padding: 17px;
+        list-style: none;
+        display: block;
+    }
+    .Contact{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+        background-color: #F8F8F8;
+     }
+    .Contact-map{
+            width: 40%;
+            float: right;
+            margin-right: 80px;
+    }
+    .Contact-map iframe{
+            width: 100%;
+            margin-top: 80px;
+            margin-bottom: 80px;
+    }
+   
+    .Contact-list img{
+        background-color: #8E7754;
+         height: 30px;
+         width: 30px; 
+         border-radius: 50%;
+         width:40px;
+         vertical-align: middle;
+    }
+    .clr{
+        clear: both;
+    }
+
+/*********************Contact*********************8/
+/*********************lsession******************8*/
+
+    .lsession{
+        width: 100%; 
+        background-color: #403D38;
+        color: white;
+        
+        font-size: 15px;
+        align-items: center;
+        
+    }
+    .cont{
+        width: 90%;
+        margin: auto;
+    }
+    .lsession-list ul li{
+        padding: 17px;
+    }
+    .lsession-list{
+        float: left;
+       
+        width: 25%;
+        margin-bottom: 50px;
+        
+    }
+    .llist img{
+        width: 7%;
+        vertical-align: middle;
+    }
+    .lis img{
+        width: 15%;
+        vertical-align: middle;
+    }
+    .llist p{
+        color: #969696;
+        margin-top: 20px;
+    }
+    .llist ul{
+        color: #969696;
+        margin-top: 20px;
+        list-style: none;
+    }
+    .llist{
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .clr{
+        clear: both;
+    }
+
+
+    /*******************lsession*********************/
+    /********************info********************8*/
+
+
+    .info{
+        width: 100%;
+        margin-top: auto;
+        background-color: #353330;
+        color: #969696;
+        font-size: 15px;
+    }
+    .info-cap{
+        width: 40%;
+        color: #969696;
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .info-cap p{
+        margin-top: 30px;
+    }
+   
+
+
+    
+   
+
+
